@@ -1,4 +1,3 @@
-/* eslint disable prefer-default-export */
 import { Books, foo } from './Books.js';
 
 class BooksObject {
