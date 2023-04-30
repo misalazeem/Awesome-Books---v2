@@ -1,4 +1,5 @@
-import { Books, foo } from '../modules/Books.js';
+import { Books, foo } from './Books.js';
+
 class BooksObject {
   constructor(object = []) {
     this.booklist = object;
@@ -53,4 +54,4 @@ class BooksObject {
   }
 }
 
-  export { BooksObject };
+export { BooksObject };

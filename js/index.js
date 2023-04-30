@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       booklist.loadbooks(JSON.parse(localStorageItem));
     }
     const datetime = document.getElementById('date-time');
-    datetime.innerHTML += '<p>' + now.toLocaleString(DateTime.DATETIME_MED) + '</p>';
+    datetime.innerHTML += `<p>${now.toLocaleString(DateTime.DATETIME_MED)}</p>`;
     const removebooksection = document.getElementById('removebookstable');
     for (let i = 0; i < booklist.booklist.length; i += 1) {
       let bookhtml;
