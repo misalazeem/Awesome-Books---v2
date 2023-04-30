@@ -1,10 +1,9 @@
 class Books {
-    constructor(title = '', author = '') {
-      this.title = title;
-      this.author = author;
-    }
+  constructor(title = '', author = '') {
+    this.title = title;
+    this.author = author;
   }
-  
-  const foo = '';
-  
-  export { Books, foo };
+}
+
+const foo = '';
+export { Books, foo };
