@@ -1,4 +1,4 @@
-import { BooksObject } from '../modules/BooksObject.js';
+import { BooksObject, bar } from '../modules/BooksObject.js';
 import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
 
 const booklist = new BooksObject();
