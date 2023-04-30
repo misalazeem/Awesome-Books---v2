@@ -1,4 +1,3 @@
-/* eslint disable prefer-default-export */
 import { BooksObject } from '../modules/BooksObject.js';
 import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
 
@@ -11,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       booklist.loadbooks(JSON.parse(localStorageItem));
     }
     const datetime = document.getElementById('date-time');
+    datetime.innerHTML = bar;
     datetime.innerHTML += `<p>${now.toLocaleString(DateTime.DATETIME_MED)}</p>`;
     const removebooksection = document.getElementById('removebookstable');
     for (let i = 0; i < booklist.booklist.length; i += 1) {

@@ -54,4 +54,5 @@ class BooksObject {
   }
 }
 
-export { BooksObject };
+const bar = '';
+export { BooksObject, bar };
