@@ -1,5 +1,5 @@
 import { BooksObject, bar } from '../modules/BooksObject.js';
-import { DateTime } from '../luxon/luxon/build/es6/luxon.js';
+import { DateTime } from '../modules/luxon.min.js';
 
 const booklist = new BooksObject();
 const now = DateTime.now();
