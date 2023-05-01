@@ -139,7 +139,7 @@ Example command:
 
 ### Deployment
 
-- This Project is not deployment yet
+- <a href="https://misalazeem.github.io/Awesome-Books---v2/">Click here to view Live Deployment</a>
 
 <!--
 Example:
